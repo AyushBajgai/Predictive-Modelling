@@ -1,0 +1,16 @@
+# Ignore all DVC-tracked data files
+*.dvc
+*.csv
+*.tsv
+*.h5
+
+# Ignore data directory to prevent tracking by Git
+data/
+
+# Ignore Python-specific files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
