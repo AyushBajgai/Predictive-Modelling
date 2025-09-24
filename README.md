@@ -26,9 +26,14 @@ Clone the repo and install dependencies:
 git clone https://github.com/AyushBajgai/Predictive-Modelling/tree/main
 cd predictive-modelling
 
+# create env
+conda env create -f environment.yml
+
 # recommended: conda environment
 conda create -n pm python=3.11 -y
-conda activate pm
+
+# activate
+conda activate predictive-modelling
 
 pip install -r requirements.txt
 
