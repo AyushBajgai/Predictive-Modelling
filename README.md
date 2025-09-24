@@ -22,19 +22,19 @@ Both files are tracked with **Git LFS**.
 ## Installation
 Clone the repo and install dependencies:
 
-## Main requirements
-pandas, numpy, scikit-learn, matplotlib, seaborn,
-plotly, geopandas, shapely, folium, pyspark, dvc
-
 ```bash
-git clone https://github.com/<your-username>/predictive-modelling-reproducibility.git
-cd predictive-modelling-reproducibility
+git clone https://github.com/AyushBajgai/Predictive-Modelling/tree/main
+cd predictive-modelling
 
 # recommended: conda environment
 conda create -n pm python=3.11 -y
 conda activate pm
 
 pip install -r requirements.txt
+
+## Main requirements
+pandas, numpy, scikit-learn, matplotlib, seaborn,
+plotly, geopandas, shapely, folium, pyspark, dvc
 
 
 
