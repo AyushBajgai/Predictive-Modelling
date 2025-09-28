@@ -1,0 +1,6 @@
+[core]
+    remote = myremote
+['remote "myremote"']
+    url = gdrive://1IukLUP7IrI3h21I0Qthi_8FS6iErSJGL
+    gdrive_use_service_account = true
+    gdrive_service_account_json_file_path = C:/Users/hp/Downloads/predictive-modelling-473113-94c4cd04d461.json
